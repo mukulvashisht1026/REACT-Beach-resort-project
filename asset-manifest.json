@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/REACT-Beach-resort-project/static/css/main.2c2aea84.chunk.css",
+    "main.js": "/REACT-Beach-resort-project/static/js/main.0882c45a.chunk.js",
+    "main.js.map": "/REACT-Beach-resort-project/static/js/main.0882c45a.chunk.js.map",
+    "runtime-main.js": "/REACT-Beach-resort-project/static/js/runtime-main.1b54fc07.js",
+    "runtime-main.js.map": "/REACT-Beach-resort-project/static/js/runtime-main.1b54fc07.js.map",
+    "static/js/2.e1fdb1f2.chunk.js": "/REACT-Beach-resort-project/static/js/2.e1fdb1f2.chunk.js",
+    "static/js/2.e1fdb1f2.chunk.js.map": "/REACT-Beach-resort-project/static/js/2.e1fdb1f2.chunk.js.map",
+    "index.html": "/REACT-Beach-resort-project/index.html",
+    "precache-manifest.ce93235b17ce64f8548d79050e8fdbe6.js": "/REACT-Beach-resort-project/precache-manifest.ce93235b17ce64f8548d79050e8fdbe6.js",
+    "service-worker.js": "/REACT-Beach-resort-project/service-worker.js",
+    "static/css/main.2c2aea84.chunk.css.map": "/REACT-Beach-resort-project/static/css/main.2c2aea84.chunk.css.map",
+    "static/js/2.e1fdb1f2.chunk.js.LICENSE.txt": "/REACT-Beach-resort-project/static/js/2.e1fdb1f2.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/REACT-Beach-resort-project/static/media/room-2.052c7681.jpeg",
+    "static/media/loading-arrow.gif": "/REACT-Beach-resort-project/static/media/loading-arrow.e9ea7394.gif",
+    "static/media/logo.svg": "/REACT-Beach-resort-project/static/media/logo.9f0cccc1.svg",
+    "static/media/room-1.jpeg": "/REACT-Beach-resort-project/static/media/room-1.e928a5c4.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b54fc07.js",
+    "static/js/2.e1fdb1f2.chunk.js",
+    "static/css/main.2c2aea84.chunk.css",
+    "static/js/main.0882c45a.chunk.js"
+  ]
+}
