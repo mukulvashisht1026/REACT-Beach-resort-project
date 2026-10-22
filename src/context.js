@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Client from "./Contentful";
+import demoRooms from "./data";
 
 const RoomContext = React.createContext();
 
@@ -23,10 +24,10 @@ export default class RoomProvider extends Component {
   // getData
   getData = async () => {
     try {
-      let response = await Client.getEntries({
+      let response = Client ? await Client.getEntries({
         content_type: "beachResortRoom",
         order: "fields.price",
-      });
+      }) : { items: demoRooms };
       console.log(response.items);
       let rooms = this.formatData(response.items);
       let featuredRooms = rooms.filter((room) => room.featured === true);
@@ -43,6 +44,7 @@ export default class RoomProvider extends Component {
       });
     } catch (error) {
       console.log(error);
+      this.setState({ loading: false });
     }
   };
 
@@ -56,7 +58,7 @@ export default class RoomProvider extends Component {
         // console.log(sys, "hello");
         // console.log(image.fields.file.url, "world");
         // if (image.fields) {
-        return image.fields.file.details.url;
+        return image.fields.file.url;
         // }
         // return defaultImg;
       });

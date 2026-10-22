@@ -1,0 +1,10 @@
+name: mukul-beach-resort
+services:
+  beach-resort:
+    image: ${IMAGE_PREFIX:-mukul-local}/beach-resort:${IMAGE_TAG:-latest}
+    platform: ${DOCKER_PLATFORM:-linux/amd64}
+    build:
+      context: .
+    restart: unless-stopped
+    ports:
+      - "${PORT:-8087}:8080"
