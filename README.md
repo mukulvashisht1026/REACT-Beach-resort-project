@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Beach Resort: a React (Create React App) site for browsing and filtering resort rooms.
+
+## Status and TODO
+
+Runs as-is. Quick start: `make deploy` (Docker, http://localhost:8087), or `npm install && npm start` (http://localhost:3000).
+
+- Mock data: rooms come from the local `src/data.js` unless both `REACT_APP_API_SPACE` and `REACT_APP_ACCESS_TOKEN` are set. Then they're loaded from Contentful (`src/Contentful.js`).
+- TODO: there is no booking flow; the rooms are browse-only.
+- TODO: the rest of this README is the Create React App boilerplate.
+
 ## Available Scripts
 
 In the project directory, you can run:
